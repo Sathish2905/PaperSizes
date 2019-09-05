@@ -1,0 +1,69 @@
+
+International standard paper sizes in PostScript and PDF
+--------------------------------------------------------
+
+The following table shows ISO 216 paper format dimensions in
+PostScript points (1 pt = 25.4/72 mm), rounded to the nearest integer
+value:
+
+4A0 = 1682 mm x 2378 mm = 4768 pt x 6741 pt
+2A0 = 1189 mm x 1682 mm = 3370 pt x 4768 pt
+ A0 =  841 mm x 1189 mm = 2384 pt x 3370 pt
+ A1 =  594 mm x  841 mm = 1684 pt x 2384 pt
+ A2 =  420 mm x  594 mm = 1191 pt x 1684 pt
+ A3 =  297 mm x  420 mm =  842 pt x 1191 pt
+ A4 =  210 mm x  297 mm =  595 pt x  842 pt
+ A5 =  148 mm x  210 mm =  420 pt x  595 pt
+ A6 =  105 mm x  148 mm =  298 pt x  420 pt
+ A7 =   74 mm x  105 mm =  210 pt x  298 pt
+ A8 =   52 mm x   74 mm =  147 pt x  210 pt
+ A9 =   37 mm x   52 mm =  105 pt x  147 pt
+A10 =   26 mm x   37 mm =   74 pt x  105 pt
+					   
+ B0 = 1000 mm x 1414 mm = 2835 pt x 4008 pt
+ B1 =  707 mm x 1000 mm = 2004 pt x 2835 pt
+ B2 =  500 mm x  707 mm = 1417 pt x 2004 pt
+ B3 =  353 mm x  500 mm = 1001 pt x 1417 pt
+ B4 =  250 mm x  353 mm =  709 pt x 1001 pt
+ B5 =  176 mm x  250 mm =  499 pt x  709 pt
+ B6 =  125 mm x  176 mm =  354 pt x  499 pt
+ B7 =   88 mm x  125 mm =  249 pt x  354 pt
+ B8 =   62 mm x   88 mm =  176 pt x  249 pt
+ B9 =   44 mm x   62 mm =  125 pt x  176 pt
+B10 =   31 mm x   44 mm =   88 pt x  125 pt
+					   
+ C0 =  917 mm x 1297 mm = 2599 pt x 3677 pt
+ C1 =  648 mm x  917 mm = 1837 pt x 2599 pt
+ C2 =  458 mm x  648 mm = 1298 pt x 1837 pt
+ C3 =  324 mm x  458 mm =  918 pt x 1298 pt
+ C4 =  229 mm x  324 mm =  649 pt x  918 pt
+ C5 =  162 mm x  229 mm =  459 pt x  649 pt
+ C6 =  114 mm x  162 mm =  323 pt x  459 pt
+ C7 =   81 mm x  114 mm =  230 pt x  323 pt
+ C8 =   57 mm x   81 mm =  162 pt x  230 pt
+ C9 =   40 mm x   57 mm =  113 pt x  162 pt
+C10 =   28 mm x   40 mm =   79 pt x  113 pt
+
+Adobe has also published a table of paper sizes in PostScript points
+in
+
+  PostScript Printer Description (PPD) File Format Specification,
+  Version 4.3, Adobe Technical Note 5003, 1996-02-09, Appendix B,
+  pp. 183-198.
+  http://partners.adobe.com/public/developer/en/ps/5003.PPD_Spec_v4.3.pdf
+
+The Adobe point dimensions are identical to the above ones for A0-A5,
+B0-B10, and most C sizes, but they strangely are one point larger in
+one dimension for A6-A10 and also differ slightly for C0 and C3. I
+cannot figure out, what exact rounding algorithm Adobe used here or
+whether their table just suffers from some typos.
+
+For more information on ISO 216:
+
+  http://www.cl.cam.ac.uk/~mgk25/iso-paper.html
+
+Markus
+
+-- 
+Markus Kuhn, Computer Laboratory, University of Cambridge
+http://www.cl.cam.ac.uk/~mgk25/ || CB3 0FD, Great Britain
